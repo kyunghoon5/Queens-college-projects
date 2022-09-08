@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13.0.2" class="java.beans.XMLDecoder">
+ <object class="org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo" id="MarketplaceInfo0">
+  <void property="iuToNodeKey">
+   <void method="put">
+    <string>com.itemis.jbc.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#3579717</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nodeKeyToIU">
+   <void method="put">
+    <string>http://marketplace.eclipse.org#3579717</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>com.itemis.jbc.feature</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

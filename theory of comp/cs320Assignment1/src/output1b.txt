@@ -1,0 +1,8 @@
+X = [a, ab, abc, abcd]
+Y = [a, bb, ccc, dddd]
+XUY = [a, ab, abc, abcd, bb, ccc, dddd]
+X∩Y = [a]
+X-Y = [ab, abc, abcd]
+XΔY = [ab, abc, abcd, bb, ccc, dddd]
+XxY = [[a, a], [ab, a], [abc, a], [abcd, a], [a, bb], [ab, bb], [abc, bb], [abcd, bb], [a, ccc], [ab, ccc], [abc, ccc], [abcd, ccc], [a, dddd], [ab, dddd], [abc, dddd], [abcd, dddd]]
+P(X) = [[], [a], [ab], [a, ab], [abc], [a, abc], [ab, abc], [a, ab, abc], [abcd], [a, abcd], [ab, abcd], [a, ab, abcd], [abc, abcd], [a, abc, abcd], [ab, abc, abcd], [a, ab, abc, abcd]]

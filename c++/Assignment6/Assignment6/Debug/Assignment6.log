@@ -1,0 +1,18 @@
+﻿  Assignment6.cpp
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(11,19): error C2131: expression did not evaluate to a constant
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(11,19): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(11,19): message : see usage of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::length'
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(13,20): error C2131: expression did not evaluate to a constant
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(13,20): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(13,20): message : see usage of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::length'
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(15,18): error C2131: expression did not evaluate to a constant
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(15,18): message : failure was caused by call of undefined function or one not declared 'constexpr'
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(15,18): message : see usage of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::length'
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(17,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(19,15): error C3863: array type 'int ['function']' is not assignable
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(21,13): error C3863: array type 'int ['function']' is not assignable
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(25,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(27,39): error C3863: array type 'int ['function']' is not assignable
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(33,30): error C3863: array type 'int ['function']' is not assignable
+C:\Users\oh\source\repos\Assignment6\Assignment6\Assignment6.cpp(41,6): warning C4552: '<<': result of expression not used

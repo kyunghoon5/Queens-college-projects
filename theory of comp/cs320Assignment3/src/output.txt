@@ -1,0 +1,67 @@
+current state: 0
+Tape 1: 
+B B B B B B B B B B 
+Tape 2: 
+B B B a a b b c c 
+======================================
+current state: 1
+Tape 1: 
+B B B B B B B B B B 
+Tape 2: 
+B B B a a b b c c 
+======================================
+current state: 2
+Tape 1: 
+B # B B B B B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 3
+Tape 1: 
+B # # B B B B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 3
+Tape 1: 
+B # # a B B B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 4
+Tape 1: 
+B # # a B B B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 4
+Tape 1: 
+B # # a b B B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 5
+Tape 1: 
+B # # a b B B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 5
+Tape 1: 
+B # # a b c B B B B 
+Tape 2: 
+B a B a a b b c c 
+======================================
+current state: 6
+Tape 1: 
+B # # a b c B B B B 
+Tape 2: 
+B a a a a b b c c 
+======================================
+current state: 6
+Tape 1: 
+B # # a b c B B B B 
+Tape 2: 
+B a a a a b b c c 
+======================================
+number of steps: 10

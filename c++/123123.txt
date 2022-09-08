@@ -1,0 +1,158 @@
+int max-mix(int a [10] [10]) {
+	for(int row = 0; row<10; row++){
+int max = a[row][0];
+int p = row;
+int q = 0;
+
+for(int col=0; col< 10; col++){
+if(max < a[row][col]){
+max= a[row][col];
+p=row;
+q=col;
+}
+}
+int f= 0;
+for(int i = 0; i < 10; i++){
+if(max > a[i][q]){ 
+f=1;
+}
+}
+if(f ==0){
+return max;
+}
+}
+}
+
+parameter = int a[10][10];
+10 row
+10 col
+
+
+check each row and find highest num in a row and then check col which is a lowest num in col
+
+find higheset element in a row and save 
+check higest num is lowest in col
+
+bool operator == (Rat const &obj) {
+int a = (float)n/d;
+int b = (float)obj.n/obj.d;
+if(a==b)
+    return true;
+return false;
+   }
+
+   bool operator > (Rat const &obj) {
+int a = (float)n/d;
+int b = (float)obj.n/obj.d;
+if(a>b)
+    return true;
+return false;
+   }
+
+   bool operator < (Rat const &obj) {
+int a = (float)n/d;
+int b = (float)obj.n/obj.d;
+if(a<b)
+    return true;
+return false;
+   }
+
+
+int main()
+
+{
+
+int path[5][5];
+
+int i, j;
+
+for (i=0; i<5; i++) //base step of dynamic programming
+
+{
+
+path[i][0] = 1;
+
+path[0][i] = 1;
+
+}
+
+for (i=1; i<5; i++) //filling dynamic programming table
+
+for (j=1; j<5;j++)
+
+path[i][j] = path[i][j-1] + path[i-1][j] ;
+
+//Now path[4][4] contains total paths from a[0][0] to a[4][4]
+
+printf("Total number of path from a[0][0] to a[4][4] is %d" , path[4][4]);
+
+return 0;
+
+}
+
+#include<iostream>
+using namespace std;
+class Rat
+{
+   int numerator;
+   int denominator;
+   public:
+       Rat()
+       {
+           numerator=0;
+           denominator=1;
+       }
+       Rat(int num, int den) //constructors to bind values
+       {
+           numerator=num;
+           if (den==0)
+       {
+   cout << "Error: Attempting to Divide by Zero" << endl;
+   exit(0); // it will terminate the program if division by 0 is attempted
+       }
+       else
+       {
+           denominator=den;
+           }
+          
+          
+       }
+      
+       bool operator == (Rat &r)
+{
+   return (numerator*r.denominator-denominator*r.numerator==0);
+}  
+  
+bool operator > (Rat &r)
+{
+   return (numerator*r.denominator-denominator*r.numerator > 0);
+       }
+      
+       bool operator < (Rat &r)
+{
+   return (numerator*r.denominator-denominator*r.numerator < 0);
+       }
+  
+  
+};
+
+int main()
+{
+   //tester
+   Rat x(2,3);
+   Rat y(2,6);
+   if(x==y)
+   {
+       cout<<"The two Rats are equal";
+   }
+   else if(x>y)
+   {
+       cout<<"x is greater than y";
+   }
+   else if(x<y)
+   {
+       cout<<"x is lesser than y";
+   }
+}
+abhishek y
+

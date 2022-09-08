@@ -1,0 +1,111 @@
+Oops! dog
+Keep going.
+The answer is: 45
+Keep going.
+The answer is: 75
+Keep going.
+Oops! six
+Keep going.
+Bad array.
+Keep going.
+
+
+I am Alpha, and x is 10
+I am Beta, and y is 7
+I am Alpha, and x is 13
+I am Beta, and y is 10
+I am Alpha, and x is 20
+I am Gamma, and y is 16
+I am Alpha, and x is 21
+I am Gamma, and y is 17
+I am Alpha, and x is 22
+I am Gamma, and y is 18
+
+public StringList() {
+       first = null;
+       last = null ;
+       length = 0 ;
+   }
+
+public int countStrings(int count) {
+    StringNode node = first;
+    int result = 0;
+    while (node != null) {
+        if (node.data.length() == count)
+            result++;
+        node = node.next;
+    }
+    return result;
+}
+
+ActionListener
+MainWindow
+actionPerformed
+"Pass"
+"Too Bad! You failed."
+
+7                 3,5
+10
+15
+16
+17
+
+I am Alpha, and x is 10
+I am Beta, and y is 7
+I am Alpha, and x is 13
+I am Beta, and y is 10
+I am Alpha, and x is 23
+I am Beta, and y is 20
+I am Gamma and y is 16
+I am Alpha, and x is 24
+I am Beta, and y is 21
+I am Gamma and y is 17
+I am Alpha, and x is 25
+I am Beta, and y is 22
+I am Gamma and y is 18
+
+7                     2, 10
+10
+5
+2
+
+I am Alpha, and x is 9
+I am Beta, and y is 7
+I am Alpha, and x is 12
+I am Beta, and y is 10
+I am Alpha, and x is 12
+I am Beta, and y is 10
+I am Gamma and y is 5
+I am Alpha, and x is 12
+I am Beta, and y is 10
+I am Gamma and y is 2
+public class Question {
+ public static void main (String[] args) {
+ Alpha myArray [] = new Alpha[5];
+ myArray[0] = new Beta(17);
+ myArray[1] = new Beta(20);
+ myArray[2] = new Gamma(12);
+ myArray[3] = new Gamma(13);
+ myArray[4] = new Gamma(14);
+ }
+}
+public class Alpha {
+ public Alpha(int x) {
+ super();
+ System.out.println("I am Alpha, and x is "+x);
+ }
+}
+public class Beta extends Alpha {
+ public Beta (int y) {
+ super(y+3);
+ y++;
+ System.out.println("I am Beta, and y is "+y);
+ }
+}
+public class Gamma extends Alpha {
+ public Gamma (int y){
+ super(y+5);
+ y--;
+ System.out.println("I am Gamma and y is "+y);
+ }
+}

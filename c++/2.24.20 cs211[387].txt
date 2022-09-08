@@ -1,0 +1,89 @@
+place the first queen at 1st row, 1st col
+//2d : q[0][0] = 1
+//1d : q[0] = 0;
+
+move to next colum
+q[c] =-1;
+
+move to next row
+q[c]++; // q[c] = q[c]+1
+colum)goto backtrack
+
+for(i)
+if there is a queen in the same row, goto nextrow
+q[i] ==q[c]
+if there is a queen in the same upper-left diagonal , goto nextrow
+//row difference == col difference
+q[c]-q[i]==c-i
+if there is a queen in the same lower -left dia, goto nextrow
+//row dofference ==col difference
+q[i]-q[c] == c-i
+
+//place a queen in the current q[row][col] <- delete this this for 2D
+goto nextCol
+
+backtrack:
+move to the previous col
+c--;
+//locate this position
+//remove the queen ,<-default
+
+
+if(q[c]==8) goto backtrack;
+    
+    for(int i=0;i<c;i++){
+       if(q[i]==q[c]) goto nr;
+    }
+    for(int i=0;i<c; i++){
+        if(c-i==q[c]-q[i]);
+    }
+    for(int i=0; i<c;i++){
+        if((q[i]==q[c])||(c-i==abs(q[c]-q[i]))) goto nr;
+    }
+        
+    }
+    goto nc;
+
+
+
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int q[8], c=0, i, j;
+    q[0]=0; //first queen top corner
+nc: c++;
+    if(c==8) goto print;
+    q[c]=-1;
+nr: q[c]++;
+if(q[c]==8) goto backtrack;
+    for(int i=0;i<c;i++){
+       if(q[i]==q[c]) goto nr;
+    }
+    for(int i=0;i<c; i++){
+        if(q[c]-q[i]==c-i) goto nr;
+    }
+    for(int i=0; i<c;i++){
+        if((q[i]==q[c])||(c-i==abs(q[c]-q[i]))) goto nr;
+    
+    }
+    
+    goto nc;
+backtrack: c--;
+if(c==-1) return 0;
+goto nr;
+print: for(i=0;i<8;i++){
+    for(j=0;j<8;j++){
+        if(q[i]==j){
+            cout<<1;
+        } else {
+            cout<<0;
+        }
+    }
+    cout<<endl;
+    }
+    cout<<"done"<<endl;
+    goto backtrack;
+}
+
