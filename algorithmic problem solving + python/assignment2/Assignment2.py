@@ -407,13 +407,13 @@ def plot_times_bar_graph(dict_sorts, sizes, sorts):
 
 def main():
     max_int = 100
-    trials = 3
+    trials = 10
     dict_sorts = {}
     sorts = [native_sort, bubble_sort, selection_sort, insertion_sort, cocktail_sort, shell_sort, merge_sort,
              quick_sort, heap_sort, count_sort, bucket_sort, radix_sort]
     for sort in sorts:
         dict_sorts[sort.__name__] = {}
-    sizes = [10, 100, 1000, 10000]
+    sizes = [10, 100, 200, 300, 400, 500, 1000]
     for size in sizes:
         for sort in sorts:
             dict_sorts[sort.__name__][size] = 0

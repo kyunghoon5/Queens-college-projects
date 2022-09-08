@@ -1,0 +1,202 @@
+Item#:  48
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData01.txt           11            11           12           10          10           10
+processing BinPackingData02.txt
+
+Item#:  85
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData02.txt           21            21           26           21          21           20
+processing BinPackingData03.txt
+
+Item#:  132
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData03.txt           31            31           39           30          30           30
+processing BinPackingData04.txt
+
+Item#:  160
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData04.txt           41            41           53           41          41           40
+processing BinPackingData05.txt
+
+Item#:  210
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData05.txt           51            51           62           50          50           50
+processing BinPackingData06.txt
+
+Item#:  254
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData06.txt           61            61           75           60          60           60
+processing BinPackingData07.txt
+
+Item#:  295
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData07.txt           71            71           91           70          70           70
+processing BinPackingData08.txt
+
+Item#:  358
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData08.txt           81            81          103           80          80           80
+processing BinPackingData09.txt
+
+Item#:  381
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData09.txt           91            91          114           90          90           90
+processing BinPackingData10.txt
+
+Item#:  433
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData10.txt          101           101          126          100         100          100
+processing BinPackingData11.txt
+
+Item#:  483
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData11.txt          111           111          137          110         110          110
+processing BinPackingData12.txt
+
+Item#:  499
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData12.txt          122           122          150          120         120          120
+processing BinPackingData13.txt
+
+Item#:  555
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData13.txt          131           131          165          130         130          130
+processing BinPackingData14.txt
+
+Item#:  587
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData14.txt          141           141          175          140         140          140
+processing BinPackingData15.txt
+
+Item#:  618
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData15.txt          151           151          190          150         150          150
+processing BinPackingData16.txt
+
+Item#:  696
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData16.txt          162           162          201          160         160          160
+processing BinPackingData17.txt
+
+Item#:  719
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData17.txt          171           171          214          170         170          170
+processing BinPackingData18.txt
+
+Item#:  792
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData18.txt          181           181          226          180         180          180
+processing BinPackingData19.txt
+
+Item#:  786
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData19.txt          192           192          236          190         190          190
+processing BinPackingData20.txt
+
+Item#:  862
+                      bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BinPackingData20.txt          201           201          248          200         200          200
+processing BPPData01.txt
+
+Item#:  48
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData01.txt           11            11           11           11          11           10
+processing BPPData02.txt
+
+Item#:  85
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData02.txt           21            21           27           21          21           20
+processing BPPData03.txt
+
+Item#:  137
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData03.txt           31            31           38           30          30           30
+processing BPPData04.txt
+
+Item#:  161
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData04.txt           41            41           50           40          40           40
+processing BPPData05.txt
+
+Item#:  213
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData05.txt           52            52           62           50          50           50
+processing BPPData06.txt
+
+Item#:  268
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData06.txt           61            61           75           60          60           60
+processing BPPData07.txt
+
+Item#:  281
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData07.txt           71            71           89           70          70           70
+processing BPPData08.txt
+
+Item#:  343
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData08.txt           82            82          104           80          80           80
+processing BPPData09.txt
+
+Item#:  406
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData09.txt           91            91          114           90          90           90
+processing BPPData10.txt
+
+Item#:  412
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData10.txt          101           101          125          100         100          100
+processing BPPData11.txt
+
+Item#:  462
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData11.txt          111           111          140          110         110          110
+processing BPPData12.txt
+
+Item#:  500
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData12.txt          121           121          149          120         120          120
+processing BPPData13.txt
+
+Item#:  554
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData13.txt          132           132          159          130         130          130
+processing BPPData14.txt
+
+Item#:  574
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData14.txt          141           141          175          140         140          140
+processing BPPData15.txt
+
+Item#:  655
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData15.txt          151           151          186          150         150          150
+processing BPPData16.txt
+
+Item#:  677
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData16.txt          161           161          195          160         160          160
+processing BPPData17.txt
+
+Item#:  736
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData17.txt          171           171          211          170         170          170
+processing BPPData18.txt
+
+Item#:  751
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData18.txt          182           182          225          180         180          180
+processing BPPData19.txt
+
+Item#:  807
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData19.txt          193           193          236          190         190          190
+processing BPPData20.txt
+
+Item#:  826
+               bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff  optimal_num
+BPPData20.txt          201           201          257          200         200          200
+           bpp_BestFit  bpp_FirstFit  bpp_nextFit  offline_bfd  offline_ff
+40 trials     59.48782     65.995693     0.499725    91.492891  108.998537
+
+Process finished with exit code 0
